@@ -1,0 +1,11 @@
+.my-banner {
+    background-image: url('../../images/banner.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 60vh;
+}
+
+.banner-content button {
+    border-radius: 10px;
+    padding: 5px;
+}
