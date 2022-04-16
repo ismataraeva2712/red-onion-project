@@ -13,8 +13,8 @@ const Breakfast = () => {
 
 
     const navigate = useNavigate()
-    return (<div>
-        <h2>Breakfast {food.length}</h2>
+    return (<div className='mt-3'>
+        <h2>Breakfast item </h2>
 
         <Container >
             <Row>

@@ -10,7 +10,7 @@ const Dinner = () => {
 
     return (
         <div>
-            <h2>dinner</h2>
+            <h2 className='mt-3'>Dinner Item</h2>
             <Container >
                 <Row>
                     {
