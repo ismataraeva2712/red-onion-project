@@ -1,8 +1,8 @@
 import React from 'react';
 import { Button, Card } from 'react-bootstrap';
 import './BreakfastItem.css'
-const BreakfastItem = ({ breakfastItem }) => {
-    const { name, price, description, picture } = breakfastItem
+const BreakfastItem = ({ item }) => {
+    const { name, price, description, picture } = item
     return (
 
         <div className='  g-5 col-12 col-md-6 col-lg-4 mx-auto '>
