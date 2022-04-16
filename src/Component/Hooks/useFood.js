@@ -5,7 +5,7 @@ import { useEffect, useState } from 'react';
 const useFood = () => {
     const [food, setFood] = useState([])
     useEffect(() => {
-        fetch('data.json')
+        fetch('https://raw.githubusercontent.com/ismataraeva2712/red-onion-project/main/public/data.json')
             .then(res => res.json())
             .then(data => setFood(data))
     }, [])

@@ -1,12 +1,12 @@
 import React from 'react';
 import { Button, Card } from 'react-bootstrap';
 
-const LunchItem = ({ item }) => {
+const DinnerItem = ({ item }) => {
     const { name, description, picture, price } = item
     return (
         <div className='  g-5 col-12 col-md-6 col-lg-4 mx-auto '>
 
-            <Card>
+            <Card >
                 <Card.Img variant="top" style={{ height: '200px', width: '80%', marginTop: "20px", marginLeft: "30px" }} src={picture} />
                 <Card.Body>
                     <Card.Title>{name}</Card.Title>
@@ -20,8 +20,7 @@ const LunchItem = ({ item }) => {
                 </Card.Body>
             </Card>
         </div>
-
     );
 };
 
-export default LunchItem;
+export default DinnerItem;
